@@ -1,11 +1,10 @@
 import React from 'react';
-import heroBackground from 'figma:asset/6e0d4c4386ff1d5e3ae596833c606ed4650ece26.png';
 
 export function Hero() {
   return (
     <section 
       className="bg-[#6C8EAD] text-white py-16 md:py-24 font-roboto relative bg-cover bg-center"
-      style={{ backgroundImage: `url(${heroBackground})` }}
+    
     >
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-[#0A2342]/70"></div>
@@ -22,7 +21,7 @@ export function Hero() {
             Explore our programs and discover how you can shape the future of technology.
           </p>
           <button className="bg-[#D72A1D] text-white px-8 py-3 font-medium hover:bg-[#B52217] transition-colors rounded-sm shadow-sm">
-            Learn More
+            Learn More About Cooper
           </button>
         </div>
       </div>

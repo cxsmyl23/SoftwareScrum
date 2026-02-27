@@ -21,7 +21,7 @@ export function Hero() {
             Explore our programs and discover how you can shape the future of technology.
           </p>
           <button className="bg-[#D72A1D] text-white px-8 py-3 font-medium hover:bg-[#B52217] transition-colors rounded-sm shadow-sm">
-            Learn More About David Test
+            Testing Button
           </button>
         </div>
       </div>

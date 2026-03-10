@@ -12,13 +12,13 @@ export function AcademicSection() {
       title: "Degree Programs",
       image: images.degree,
       description: "Explore our Bachelor of Science in Computer Science, with concentrations in Software Engineering, Data Science, and Cybersecurity.",
-      link: "#"
+      link: "https://www.smumn.edu/degree/bachelors/computer-science/"
     },
     {
-      title: "Course Descriptions",
+      title: "Course Catalog",
       image: images.courses,
       description: "From introductory programming to advanced algorithms, discover the range of courses designed to build your technical expertise.",
-      link: "#"
+      link: "https://catalog.smumn.edu/"
     },
     {
       title: "Program Requirements",
@@ -55,7 +55,9 @@ export function AcademicSection() {
               
               <div className="mt-auto">
                 <span className="text-[#D72A1D] uppercase text-sm font-medium tracking-wide border-b border-transparent group-hover:border-[#D72A1D] transition-all">
-                  Learn More
+                  <a href={section.link} target="_blank" rel="noopener noreferrer">
+                    Learn More
+                  </a>
                 </span>
               </div>
             </div>

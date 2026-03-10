@@ -8,10 +8,10 @@ export function Header() {
   const navLinks = [
     { name: 'Home', href: '#', active: true },
     { name: 'Apps', href: '#', active: false },
-    { name: 'Course Files', href: '#', active: false },
-    { name: 'Student Sites', href: '#', active: false },
+    { name: 'Course Files', href: 'http://cs.smumn.edu/courses/', active: false },
+    { name: 'Student Sites', href: 'http://cs.smumn.edu/students/', active: false },
     { name: 'About', href: '#', active: false },
-    { name: 'PHP Site', href: '#', active: false },
+    { name: 'PHP Site', href: 'http://cs.smumn.edu/phpmyadmin/', active: false },
   ];
 
   return (

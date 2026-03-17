@@ -6,23 +6,23 @@ export function NewsSection() {
     {
       title: 'Latest News',
       icon: <FileText className="w-6 h-6 text-[#D72A1D]" />,
-      content: 'Department launches new AI specialization track for Fall 2026. Learn about the new curriculum changes.',
+      content: 'Gelgelu uses double degree to change lives',
       date: 'Feb 15, 2026',
-      link: '#'
+      link: 'https://www.smumn.edu/newsroom/gelgelu-uses-double-degree-to-change-lives/'
     },
     {
       title: 'Event Update',
       icon: <Calendar className="w-6 h-6 text-[#D72A1D]" />,
-      content: 'Join us for the annual Hackathon this Saturday in the Science Center. Registration is open until Friday.',
+      content: 'Munns family shares love of Saint Mary’s close community Three generations of the Munns family members thought about how they...',
       date: 'Feb 12, 2026',
-      link: '#'
+      link: 'https://www.smumn.edu/newsroom/a-legacy-that-spans-three-generations/'
     },
     {
-      title: 'Important Notice',
+      title: 'Alumni Spotlight',
       icon: <Bell className="w-6 h-6 text-[#D72A1D]" />,
-      content: 'Course registration for the Spring semester begins next week. Make sure to consult with your advisor.',
+      content: 'Vogt family shares love of Saint Mary’s and, of course, making wine Vicky Vogt B’08 came to Saint Mary’s with...',
       date: 'Feb 10, 2026',
-      link: '#'
+      link: 'https://www.smumn.edu/newsroom/saint-marys-capstone-leads-to-flourishing-business/'
     }
   ];
 

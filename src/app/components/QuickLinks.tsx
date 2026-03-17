@@ -3,9 +3,9 @@ import { ChevronRight } from 'lucide-react';
 
 export function QuickLinks() {
   const links = [
-    { name: 'Course Catalog', href: '#' },
-    { name: 'Student Resources', href: '#' },
-    { name: 'University Homepage', href: '#' }
+    { name: 'Course Catalog', href: 'https://www.smumn.edu/academics/course-catalogs/' },
+    { name: 'Student Resources', href: 'https://studentservices.smumn.edu/' },
+    { name: 'University Homepage', href: 'https://www.smumn.edu/' }
   ];
 
   return (

@@ -2,7 +2,7 @@ export function VideoBg() {
   return (
     <section className="relative text-white py-16 md:py-24 font-roboto overflow-hidden">
 
-      {/* Background Video */}
+      {/* Background Video for the home page*/}
     <video
     autoPlay loop muted playsInline
     className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none"
